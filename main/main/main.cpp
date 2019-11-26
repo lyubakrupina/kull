@@ -3,6 +3,7 @@
 
 
 #include "stdafx.h"
+#include "fuch.h"
 #include <iostream>
 using namespace std;
 
@@ -21,14 +22,15 @@ int main()
 	{
 		case 1: // если count = 1
 			{
-				cout << "vibrannai funcia nahoditca v razrabotke ";
+				cout << MySum(a,b);
+				
 				
 			
 				break;
 			}
 		case 2: // если count = 2
 			{
-				cout << "vibrannai funcia nahoditca v razrabotke ";
+				cout << MySub(a,b);
 			
 				break;
 			}
