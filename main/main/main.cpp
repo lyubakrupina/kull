@@ -39,9 +39,15 @@ int main()
 			}
 		case 4: // если count = 4
 			{
-									cout <<  MyDiv(a,b);
+				if(b!=0){
+					cout<<MyDiv(a,b)<<endl;
+				 }else{
+	 cout<<"Delenie na 0 nevozmogno"<<endl;
+			 }
+			break;
 				
-				break;
+				
+				
 			}
 		default: // если count равно любому другому значению
 			cout << "Nepravilni vvod" << endl;
