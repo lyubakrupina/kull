@@ -39,7 +39,11 @@ int main()
 			}
 		case 4: // если count = 4
 			{
-				cout <<  MyDiv(a,b);
+				if (b != 0) 
+				{
+					cout <<  MyDiv(a,b);
+				}
+				else cout << "Delenie na nol"<< endl;
 				break;
 			}
 		default: // если count равно любому другому значению
