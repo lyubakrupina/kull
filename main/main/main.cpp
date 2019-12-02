@@ -24,8 +24,6 @@ int main()
 			{
 				cout << MySum(a,b);
 				
-				
-			
 				break;
 			}
 		case 2: // если count = 2
@@ -36,12 +34,12 @@ int main()
 			}
 		case 3: // если count = 3
 			{
-				cout << "vibrannai funcia nahoditca v razrabotke ";
+				cout << MyMul(a,b);
 				break;
 			}
 		case 4: // если count = 4
 			{
-				cout << "vibrannai funcia nahoditca v razrabotke  ";
+				cout <<  MyDiv(a,b);
 				break;
 			}
 		default: // если count равно любому другому значению
